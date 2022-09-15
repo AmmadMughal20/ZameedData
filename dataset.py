@@ -1,13 +1,13 @@
 import pandas as pd
 
-dataset = pd.read_csv("./Dataset/Property.csv",  on_bad_lines='skip')
+dataset = pd.read_csv("/home/ammad/Documents/python/Assignments/Week10/ZameedData/Dataset/Property.csv",  on_bad_lines='skip')
 
 ZameenData = {} # Dictionary that will store the data
 values = []
 for index, row in dataset.iterrows():
     values = str(row).split(";")
-print(values)
-
+# print(values)
+print("Completed")
 # columnswithquotes = []
 # plain_columns = []
 
