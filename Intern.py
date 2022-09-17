@@ -6,10 +6,12 @@ class Intern():
 
     def Name(self):
         print(self.name)
+        return self
 
 class CTO_Intern(Intern):
     def __init__(self,name):
         Intern.__init__(self,name)
+        
 
 Intern1 = CTO_Intern('Ammad')
 
